@@ -73,15 +73,15 @@ fxDONOTUSEurl = https://github.com/NorESMHub/NorESM_share.git
 
 [submodule "blom"]
 path = components/blom
-url = https://github.com/NorESMhub/BLOM.git
-fxtag = v1.12.7
+url = https://github.com/mvertens/BLOM.git
+fxtag = e2bb491
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/BLOM.git
 
 [submodule "cam"]
 path = components/cam
-url = https://github.com/NorESMhub/CAM.git
-fxtag = noresm3_0_018_cam6_4_085
+url = https://github.com/mvertens/CAM.git
+fxtag = e28c1c0a
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/CAM.git
 
@@ -115,8 +115,8 @@ fxDONOTUSEurl = https://github.com/NorESMhub/CTSM.git
 
 [submodule "cmeps"]
 path = components/cmeps
-url = https://github.com/NorESMhub/CMEPS.git
-fxtag = cmeps1.0.39_noresm_v8
+url = https://github.com/mvertens/CMEPS.git
+fxtag = 6c90dd39
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/CMEPS.git
 
