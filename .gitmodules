@@ -80,15 +80,19 @@ fxDONOTUSEurl = https://github.com/NorESMhub/BLOM.git
 
 [submodule "cam"]
 path = components/cam
-url = https://github.com/NorESMhub/CAM.git
-fxtag = noresm3_0_021_cam6_4_121
+#url = https://github.com/NorESMhub/CAM.git
+#fxtag = noresm3_0_021_cam6_4_121
+url = https://github.com/mvertens/CAM.git
+fxtag = e1e44e84
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/CAM.git
 
 [submodule "cdeps"]
 path = components/cdeps
-url = https://github.com/NorESMhub/CDEPS.git
-fxtag = cdeps1.0.83_noresm_v2
+#url = https://github.com/NorESMhub/CDEPS.git
+#fxtag = cdeps1.0.83_noresm_v2
+url = https://github.com/mvertens/CDEPS.git
+fxtag = 80e1f8d
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/CDEPS.git
 
