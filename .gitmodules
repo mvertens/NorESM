@@ -92,7 +92,7 @@ path = components/cdeps
 #url = https://github.com/NorESMhub/CDEPS.git
 #fxtag = cdeps1.0.83_noresm_v2
 url = https://github.com/mvertens/CDEPS.git
-fxtag = d476c03
+fxtag = b6ffcbb
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/CDEPS.git
 
