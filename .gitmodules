@@ -44,8 +44,11 @@ fxDONOTUSEurl = https://github.com/NCAR/ParallelIO.git
 
 [submodule "ccs_config"]
 path = ccs_config
+#url = https://github.com/mvertens/ccs_config_cesm.git
+#fxtag = ccs_config_noresm0.0.65
+#branch is feature/ww3_winds_for_clio
 url = https://github.com/NorESMhub/ccs_config_noresm.git
-fxtag = ccs_config_noresm0.0.65
+fxtag = 880765133
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/ccs_config_noresm.git
 
@@ -87,8 +90,11 @@ fxDONOTUSEurl = https://github.com/NorESMhub/CAM.git
 
 [submodule "cdeps"]
 path = components/cdeps
-url = https://github.com/NorESMhub/CDEPS.git
-fxtag = cdeps1.0.88_noresm_v2
+#url = https://github.com/NorESMhub/CDEPS.git
+#fxtag = cdeps1.0.88_noresm_v2
+#branch is feature/ww3_winds_for_clio
+url = https://github.com/mvertens/CDEPS.git
+fxtag = bf58036
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/CDEPS.git
 
@@ -129,8 +135,11 @@ fxDONOTUSEurl = https://github.com/NorESMhub/MOSART.git
 
 [submodule "ww3"]
 path = components/ww3
-url = https://github.com/NorESMhub/WW3_interface.git
-fxtag = ww3_interface_noresm0.0.18
+#url = https://github.com/NorESMhub/WW3_interface.git
+#fxtag = ww3_interface_noresm0.0.18
+#branch is feature/add_bounc
+url = https://github.com/mvertens/WW3_interface.git
+fxtag = 82bb2928
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/WW3_interface.git
 
