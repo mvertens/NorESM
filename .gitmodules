@@ -94,7 +94,7 @@ path = components/cdeps
 #fxtag = cdeps1.0.88_noresm_v2
 #branch is feature/ww3_winds_for_clio
 url = https://github.com/mvertens/CDEPS.git
-fxtag = bf58036
+fxtag = 5a9c66b
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/CDEPS.git
 
