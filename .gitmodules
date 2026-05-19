@@ -47,8 +47,8 @@ path = ccs_config
 #url = https://github.com/mvertens/ccs_config_cesm.git
 #fxtag = ccs_config_noresm0.0.65
 #branch is feature/ww3_winds_for_clio
-url = https://github.com/NorESMhub/ccs_config_noresm.git
-fxtag = 880765133
+url = https://github.com/mvertens/ccs_config_cesm.git
+fxtag = 455279234
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/ccs_config_noresm.git
 
@@ -74,19 +74,19 @@ fxDONOTUSEurl = https://github.com/NorESMHub/NorESM_share.git
 # Components
 #-----------------------------
 
-[submodule "blom"]
-path = components/blom
-url = https://github.com/NorESMhub/BLOM.git
-fxtag = v1.12.39
-fxrequired = ToplevelRequired
-fxDONOTUSEurl = https://github.com/NorESMhub/BLOM.git
+# [submodule "blom"]
+# path = components/blom
+# url = https://github.com/NorESMhub/BLOM.git
+# fxtag = v1.12.39
+# fxrequired = ToplevelRequired
+# fxDONOTUSEurl = https://github.com/NorESMhub/BLOM.git
 
-[submodule "cam"]
-path = components/cam
-url = https://github.com/NorESMhub/CAM.git
-fxtag = noresm3_0_032_cam6_4_121
-fxrequired = ToplevelRequired
-fxDONOTUSEurl = https://github.com/NorESMhub/CAM.git
+# [submodule "cam"]
+# path = components/cam
+# url = https://github.com/NorESMhub/CAM.git
+# fxtag = noresm3_0_032_cam6_4_121
+# fxrequired = ToplevelRequired
+# fxDONOTUSEurl = https://github.com/NorESMhub/CAM.git
 
 [submodule "cdeps"]
 path = components/cdeps
@@ -94,30 +94,30 @@ path = components/cdeps
 #fxtag = cdeps1.0.88_noresm_v2
 #branch is feature/ww3_winds_for_clio
 url = https://github.com/mvertens/CDEPS.git
-fxtag = 5a9c66b
+fxtag = 14bd222
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/CDEPS.git
 
-[submodule "cice6"]
-path = components/cice
-url = https://github.com/NorESMhub/NorESM_CICE.git
-fxtag = noresm_cice6_6_1_20251129_v2
-fxrequired = ToplevelRequired
-fxDONOTUSEurl = https://github.com/NorESMhub/NorESM_CICE.git
+# [submodule "cice6"]
+# path = components/cice
+# url = https://github.com/NorESMhub/NorESM_CICE.git
+# fxtag = noresm_cice6_6_1_20251129_v2
+# fxrequired = ToplevelRequired
+# fxDONOTUSEurl = https://github.com/NorESMhub/NorESM_CICE.git
 
-[submodule "cism"]
-path = components/cism
-url = https://github.com/NorESMhub/CISM-wrapper.git
-fxtag = cismwrap_2_2_007_noresm_v1
-fxrequired = ToplevelRequired
-fxDONOTUSEurl = https://github.com/NorESMhub/CISM-wrapper.git
+# [submodule "cism"]
+# path = components/cism
+# url = https://github.com/NorESMhub/CISM-wrapper.git
+# fxtag = cismwrap_2_2_007_noresm_v1
+# fxrequired = ToplevelRequired
+# fxDONOTUSEurl = https://github.com/NorESMhub/CISM-wrapper.git
 
-[submodule "clm"]
-path = components/clm
-url = https://github.com/NorESMhub/CTSM.git
-fxtag = ctsm5.4.036_noresm_v0
-fxrequired = ToplevelRequired
-fxDONOTUSEurl = https://github.com/NorESMhub/CTSM.git
+# [submodule "clm"]
+# path = components/clm
+# url = https://github.com/NorESMhub/CTSM.git
+# fxtag = ctsm5.4.036_noresm_v0
+# fxrequired = ToplevelRequired
+# fxDONOTUSEurl = https://github.com/NorESMhub/CTSM.git
 
 [submodule "cmeps"]
 path = components/cmeps
@@ -126,12 +126,12 @@ fxtag = cmeps1.1.41_noresm_v0
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/CMEPS.git
 
-[submodule "mosart"]
-path = components/mosart
-url = https://github.com/NorESMhub/MOSART.git
-fxtag = mosart1.1.12_noresm_v2
-fxrequired = ToplevelRequired
-fxDONOTUSEurl = https://github.com/NorESMhub/MOSART.git
+# [submodule "mosart"]
+# path = components/mosart
+# url = https://github.com/NorESMhub/MOSART.git
+# fxtag = mosart1.1.12_noresm_v2
+# fxrequired = ToplevelRequired
+# fxDONOTUSEurl = https://github.com/NorESMhub/MOSART.git
 
 [submodule "ww3"]
 path = components/ww3
@@ -147,9 +147,9 @@ fxDONOTUSEurl = https://github.com/NorESMhub/WW3_interface.git
 # Tools
 #-----------------------------
 
-[submodule "pycect"]
-path = tools/statistical_ensemble_test/pyCECT
-url = https://github.com/NCAR/PyCECT.git
-fxtag = 3.2.2
-fxrequired = ToplevelOptional
-fxDONOTUSEurl = https://github.com/NCAR/PyCECT.git
+# [submodule "pycect"]
+# path = tools/statistical_ensemble_test/pyCECT
+# url = https://github.com/NCAR/PyCECT.git
+# fxtag = 3.2.2
+# fxrequired = ToplevelOptional
+# fxDONOTUSEurl = https://github.com/NCAR/PyCECT.git
