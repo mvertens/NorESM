@@ -99,6 +99,6 @@ path = components/ww3
 #fxtag = ww3_interface_noresm0.0.18
 #branch is feature/add_bounc
 url = https://github.com/mvertens/WW3_interface.git
-fxtag = ce360b0
+fxtag = 5a63385
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/WW3_interface.git
