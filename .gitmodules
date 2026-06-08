@@ -48,7 +48,7 @@ path = ccs_config
 #fxtag = ccs_config_noresm0.0.65
 #branch is feature/ww3_winds_for_clio
 url = https://github.com/mvertens/ccs_config_cesm.git
-fxtag = a7e3e4b71
+fxtag = 7518eafa7
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/ccs_config_noresm.git
 
@@ -80,7 +80,7 @@ path = components/cdeps
 #fxtag = cdeps1.0.88_noresm_v2
 #branch is feature/ww3_winds_for_clio
 url = https://github.com/mvertens/CDEPS.git
-fxtag = 5af0246
+fxtag = 0427492
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/CDEPS.git
 
@@ -99,6 +99,6 @@ path = components/ww3
 #fxtag = ww3_interface_noresm0.0.18
 #branch is feature/add_bounc
 url = https://github.com/mvertens/WW3_interface.git
-fxtag = 5a63385
+fxtag = ae61e0f
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/WW3_interface.git
