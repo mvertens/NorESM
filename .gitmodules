@@ -48,7 +48,7 @@ path = ccs_config
 #fxtag = ccs_config_noresm0.0.65
 #branch is feature/ww3_winds_for_clio
 url = https://github.com/mvertens/ccs_config_cesm.git
-fxtag = 7fa21e755
+fxtag = 4dd31db36
 fxrequired = ToplevelRequired
 fxDONOTUSEurl = https://github.com/NorESMhub/ccs_config_noresm.git
 
